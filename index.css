@@ -29,8 +29,8 @@ p {
 
 .header-background-box {
   background-image: url(./images/big-background-flat-img.webp);
-  max-width: 1700px;
-  width: 100%;
+
+  width: 99vw;
   height: 855px;
   background-size: cover;
   margin: 0 auto;
@@ -90,4 +90,37 @@ p {
   font-size: 85px;
   text-align: center;
   padding-top: 50px;
+}
+
+.img {
+  width: 100%;
+  background-size: cover;
+}
+
+.img-box {
+  max-width: 480px;
+  padding-top: 32px;
+}
+
+.project-box-row-wrapper {
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.img-box:hover {
+  color: black;
+  opacity: 0.3;
+}
+
+/* tablets */
+@media screen and (max-width: 1024px) {
+  .header-nav-menu-box {
+    visibility: hidden;
+  }
+  .arrow-button-box {
+    padding-top: 1%;
+  }
 }
