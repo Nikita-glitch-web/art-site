@@ -29,11 +29,11 @@ p {
 
 .header-background-box {
   background-image: url(./images/big-background-flat-img.webp);
-
-  width: 99vw;
-  height: 855px;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 
 .circle-black-logo {
@@ -98,12 +98,12 @@ p {
 }
 
 .img-box {
-  max-width: 480px;
-  padding-top: 32px;
+  width: 33.3333%;
+  padding: 16px;
 }
 
 .project-box-row-wrapper {
-  max-width: 1500px;
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -113,6 +113,78 @@ p {
 .img-box:hover {
   color: black;
   opacity: 0.3;
+}
+
+.box-with-only-big-img {
+  background-image: url(./images/plitka-img.jpg);
+  height: 60vh;
+  width: 99vw;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+.title-in-box {
+  font-family: "PT Serif", serif;
+  font-size: 80px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.sub-text-in-box {
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box-with-only-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box-with-only-big-img-second {
+  background-image: url(./images/subway-img.jpg);
+  height: 70vh;
+  width: 99vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.email-row {
+  width: 660px;
+  height: 42px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 12px;
+  padding: 10px;
+  padding-left: 16px;
+}
+
+.box-with-input {
+  max-width: 662px;
+  margin: 0 auto;
+}
+
+.email-row-big {
+  height: 120px;
+  padding-bottom: 66px;
+}
+
+.button-after-input {
+  width: 184px;
+  height: 40px;
+  background: #2f2e2e;
+  border: #2f2e2e 1px solid;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.footer-orange-box {
+  background: orangered;
+  width: 100vw;
+  height: 7vh;
+  margin-top: 40px;
 }
 
 /* tablets */
